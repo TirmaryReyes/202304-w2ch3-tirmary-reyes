@@ -2,9 +2,13 @@
   "name": "Counter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app/index.js",
+  "type": "module",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "node .",
+    "test:dev": "jest --watchAll",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Tirmary Reyes",
